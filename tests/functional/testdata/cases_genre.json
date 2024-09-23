@@ -1,0 +1,450 @@
+[
+    [
+        "test_create_genre_invalid_name",
+        {
+            "index": "genres",
+            "input": [
+                {
+                    "id": "11111484-3a95-44ff-b139-c9fc20119df3",
+                    "name": "",
+                    "description": "Big culture suddenly."
+                },
+                {
+                    "id": "11111484-1bd3-46dd-9f86-f6c92d36aeeb",
+                    "name": "",
+                    "description": "Perform lot dinner behavior could foreign."
+                },
+                {
+                    "id": "11111484-1872-49a1-a4e3-c928ddf1a8e2",
+                    "name": "",
+                    "description": "Another drop avoid trial reveal."
+                },
+                {
+                    "id": "11111484-191b-4cb3-9146-aa076853d1ee",
+                    "name": "",
+                    "description": "List poor create traditional."
+                },
+                {
+                    "id": "11111484-0e0c-4b01-aa67-8ff9920af201",
+                    "name": "",
+                    "description": "Office opportunity stuff population marriage job."
+                },
+                {
+                    "id": "11111484-5201-4324-8820-d6b65df1a22d",
+                    "name": "",
+                    "description": "Analysis they per night."
+                },
+                {
+                    "id": "11111484-9cc0-4d9e-b933-3662086c1f90",
+                    "name": "",
+                    "description": "Consumer suddenly fill most require table well."
+                },
+                {
+                    "id": "11111484-a4fd-4647-9a73-c0f821a26397",
+                    "name": "",
+                    "description": "High town above begin foot special him."
+                },
+                {
+                    "id": "11111484-7a2c-4131-996a-334d2835861e",
+                    "name": "",
+                    "description": "Yard southern few thus some cultural song."
+                },
+                {
+                    "id": "11111484-2fec-4895-817b-43eaaa4de4ca",
+                    "name": "",
+                    "description": "Finally more race rock."
+                },
+                {
+                    "id": "11111484-a647-467d-aec4-bac675a7001d",
+                    "name": "",
+                    "description": "Big culture suddenly."
+                },
+                {
+                    "id": "11111484-26f8-4309-a5f2-a71ef6299530",
+                    "name": "",
+                    "description": "Perform lot dinner behavior could foreign."
+                },
+                {
+                    "id": "11111484-1d33-4a8b-871a-487bb2bb4b51",
+                    "name": "",
+                    "description": "Another drop avoid trial reveal."
+                },
+                {
+                    "id": "11111484-03ce-454b-bf57-e7a94172e595",
+                    "name": "",
+                    "description": "List poor create traditional."
+                },
+                {
+                    "id": "11111484-d729-4e83-8741-32bab58eb618",
+                    "name": "",
+                    "description": "Office opportunity stuff population marriage job."
+                },
+                {
+                    "id": "11111484-9007-4def-95f5-be382e7bd37e",
+                    "name": "",
+                    "description": "Analysis they per night."
+                },
+                {
+                    "id": "11111484-580a-42d2-89e2-f87791389dc3",
+                    "name": "",
+                    "description": "Consumer suddenly fill most require table well."
+                },
+                {
+                    "id": "11111484-42d0-43e0-9ae6-88708ebe731a",
+                    "name": "",
+                    "description": "High town above begin foot special him."
+                },
+                {
+                    "id": "11111484-824d-477b-9b2e-a3d301453aa6",
+                    "name": "",
+                    "description": "Yard southern few thus some cultural song."
+                },
+                {
+                    "id": "11111484-e727-4853-9e0b-8c7fa76be8bc",
+                    "name": "",
+                    "description": "Finally more race rock."
+                }
+            ],
+            "params": [
+                [
+                    "/genre/11111484-3a95-44ff-b139-c9fc20119df3",
+                    {},
+                    {
+                        "status": 200,
+                        "length": 3
+                    }
+                ],
+                [
+                    "/genre/11111484-1bd3-46dd-9f86-f6c92d36aeeb",
+                    {},
+                    {
+                        "status": 200,
+                        "length": 3
+                    }
+                ],
+                [
+                    "/genre/11111484-1872-49a1-a4e3-c928ddf1a8e2",
+                    {},
+                    {
+                        "status": 200,
+                        "length": 3
+                    }
+                ],
+                [
+                    "/genre/11111484-191b-4cb3-9146-aa076853d1ee",
+                    {},
+                    {
+                        "status": 200,
+                        "length": 3
+                    }
+                ],
+                [
+                    "/genre/11111484-0e0c-4b01-aa67-8ff9920af201",
+                    {},
+                    {
+                        "status": 200,
+                        "length": 3
+                    }
+                ],
+                [
+                    "/genre/11111484-5201-4324-8820-d6b65df1a22d",
+                    {},
+                    {
+                        "status": 200,
+                        "length": 3
+                    }
+                ],
+                [
+                    "/genre/11111484-9cc0-4d9e-b933-3662086c1f90",
+                    {},
+                    {
+                        "status": 200,
+                        "length": 3
+                    }
+                ],
+                [
+                    "/genre/11111484-a4fd-4647-9a73-c0f821a26397",
+                    {},
+                    {
+                        "status": 200,
+                        "length": 3
+                    }
+                ],
+                [
+                    "/genre/11111484-7a2c-4131-996a-334d2835861e",
+                    {},
+                    {
+                        "status": 200,
+                        "length": 3
+                    }
+                ],
+                [
+                    "/genre/11111484-2fec-4895-817b-43eaaa4de4ca",
+                    {},
+                    {
+                        "status": 200,
+                        "length": 3
+                    }
+                ],
+                [
+                    "/genre/11111484-a647-467d-aec4-bac675a7001d",
+                    {},
+                    {
+                        "status": 200,
+                        "length": 3
+                    }
+                ],
+                [
+                    "/genre/11111484-26f8-4309-a5f2-a71ef6299530",
+                    {},
+                    {
+                        "status": 200,
+                        "length": 3
+                    }
+                ],
+                [
+                    "/genre/11111484-1d33-4a8b-871a-487bb2bb4b51",
+                    {},
+                    {
+                        "status": 200,
+                        "length": 3
+                    }
+                ],
+                [
+                    "/genre/11111484-03ce-454b-bf57-e7a94172e595",
+                    {},
+                    {
+                        "status": 200,
+                        "length": 3
+                    }
+                ],
+                [
+                    "/genre/11111484-d729-4e83-8741-32bab58eb618",
+                    {},
+                    {
+                        "status": 200,
+                        "length": 3
+                    }
+                ],
+                [
+                    "/genre/11111484-9007-4def-95f5-be382e7bd37e",
+                    {},
+                    {
+                        "status": 200,
+                        "length": 3
+                    }
+                ],
+                [
+                    "/genre/11111484-580a-42d2-89e2-f87791389dc3",
+                    {},
+                    {
+                        "status": 200,
+                        "length": 3
+                    }
+                ],
+                [
+                    "/genre/11111484-42d0-43e0-9ae6-88708ebe731a",
+                    {},
+                    {
+                        "status": 200,
+                        "length": 3
+                    }
+                ],
+                [
+                    "/genre/11111484-824d-477b-9b2e-a3d301453aa6",
+                    {},
+                    {
+                        "status": 200,
+                        "length": 3
+                    }
+                ],
+                [
+                    "/genre/11111484-e727-4853-9e0b-8c7fa76be8bc",
+                    {},
+                    {
+                        "status": 200,
+                        "length": 3
+                    }
+                ]
+            ]
+        }
+    ],
+    [
+        "test_get_genre",
+        {
+            "index": "genres",
+            "input": {
+                "id": "11111275-c328-45e5-b2bf-ab0deb41f167",
+                "name": "11111275Public",
+                "description": "Near particular phone compare point century baby."
+            },
+            "params": [
+                "/genre/11111275-c328-45e5-b2bf-ab0deb41f167",
+                {},
+                {
+                    "status": 200,
+                    "length": 3
+                }
+            ]
+        }
+    ],
+    [
+        "test_get_nonexistent_genre",
+        {
+            "index": "genres",
+            "input": {
+                "id": "11111551-593f-45b9-8070-f8d09023ef8f",
+                "name": "11111551Tough",
+                "description": "Moment practice chance give level similar."
+            },
+            "params": [
+                "/genre/testdat0-a823-4af2-948f-30ecefbd38de",
+                {},
+                {
+                    "status": 404,
+                    "length": 1
+                }
+            ]
+        }
+    ],
+    [
+        "test_get_all_genres",
+        {
+            "index": "genres",
+            "input": [
+                {
+                    "id": "11111793-aaad-4dc4-bfb6-a7bde2ae9422",
+                    "name": "11111793Nice",
+                    "description": "Light example rather Mr million audience series can."
+                },
+                {
+                    "id": "11111793-9e9b-453b-b1ad-5ec80f1678d4",
+                    "name": "11111793Professional",
+                    "description": "General growth morning although themselves."
+                },
+                {
+                    "id": "11111793-6164-4f10-9872-4a82ff579ee0",
+                    "name": "11111793Economy",
+                    "description": "Choose every rise eye."
+                },
+                {
+                    "id": "11111793-381e-4dde-a2a5-f69dbb461b44",
+                    "name": "11111793Help",
+                    "description": "Own that option partner item process couple."
+                },
+                {
+                    "id": "11111793-3d41-4376-ac39-4d308602ae66",
+                    "name": "11111793Party",
+                    "description": "Man commercial event land protect."
+                },
+                {
+                    "id": "11111793-05dd-4c46-ac2b-e9c23cc9b129",
+                    "name": "11111793Firm",
+                    "description": "Organization daughter expert color."
+                },
+                {
+                    "id": "11111793-699b-459d-935d-81534e044cb6",
+                    "name": "11111793Image",
+                    "description": "Blood statement recently return."
+                },
+                {
+                    "id": "11111793-58db-47e7-ba24-d822118668cf",
+                    "name": "11111793General",
+                    "description": "Leg career media none seven."
+                },
+                {
+                    "id": "11111793-8285-499b-8472-3b704dd99bab",
+                    "name": "11111793Bill",
+                    "description": "Term current cultural study effort."
+                },
+                {
+                    "id": "11111793-99dc-4f4f-8ed6-29d889b8cae3",
+                    "name": "11111793Idea",
+                    "description": "Military friend push."
+                },
+                {
+                    "id": "11111793-d9ed-40fd-a3b5-9dcf6b1073e2",
+                    "name": "11111793Nice",
+                    "description": "Light example rather Mr million audience series can."
+                },
+                {
+                    "id": "11111793-6f54-413c-880d-4e06c4ad4d1d",
+                    "name": "11111793Professional",
+                    "description": "General growth morning although themselves."
+                },
+                {
+                    "id": "11111793-755b-4ecb-b9a6-06cc64dcb918",
+                    "name": "11111793Economy",
+                    "description": "Choose every rise eye."
+                },
+                {
+                    "id": "11111793-9edc-4393-88df-2b0004da8a73",
+                    "name": "11111793Help",
+                    "description": "Own that option partner item process couple."
+                },
+                {
+                    "id": "11111793-1b07-4a32-8b9f-d25625074908",
+                    "name": "11111793Party",
+                    "description": "Man commercial event land protect."
+                },
+                {
+                    "id": "11111793-3f6e-4b9c-b39e-b45e1dfca2c3",
+                    "name": "11111793Firm",
+                    "description": "Organization daughter expert color."
+                },
+                {
+                    "id": "11111793-927b-40b5-b12b-fb151bcd69e7",
+                    "name": "11111793Image",
+                    "description": "Blood statement recently return."
+                },
+                {
+                    "id": "11111793-bd53-4aa0-80c8-b274ce57032b",
+                    "name": "11111793General",
+                    "description": "Leg career media none seven."
+                },
+                {
+                    "id": "11111793-007e-4a90-a961-bb1bbc03170c",
+                    "name": "11111793Bill",
+                    "description": "Term current cultural study effort."
+                },
+                {
+                    "id": "11111793-8937-4527-98a4-0151c370f646",
+                    "name": "11111793Idea",
+                    "description": "Military friend push."
+                }
+            ],
+            "params": [
+                "/genres/",
+                {
+                    "page": 1,
+                    "per_page": 50
+                },
+                {
+                    "status": 200,
+                    "length": 20,
+                    "operator": "gte"
+                }
+            ]
+        }
+    ],
+    [
+        "test_get_genre_with_cache",
+        {
+            "index": "genres",
+            "input": {
+                "id": "11111859-46b1-4a1e-babb-e6a4ecabcc7f",
+                "name": "11111859His",
+                "description": "Plan long call hand."
+            },
+            "check_cache": true,
+            "params": [
+                "/genre/11111859-46b1-4a1e-babb-e6a4ecabcc7f",
+                {},
+                {
+                    "status": 200,
+                    "length": 3
+                }
+            ]
+        }
+    ]
+]

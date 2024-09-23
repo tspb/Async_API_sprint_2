@@ -1,0 +1,60 @@
+version: '3'
+services:
+
+  elasticsearch:
+    image: elasticsearch:8.6.2
+    volumes:
+      - esdata:/usr/share/elasticsearch/data
+    ports:
+      - "9200:9200"
+    environment:
+      - discovery.type=single-node
+      - xpack.security.enabled=false
+      - ES_JAVA_OPTS=-Xms200m -Xmx200m
+  
+  redis:
+    image: redis:latest
+    ports:
+      - "6379:6379"
+      
+  postgres:
+    build: postgres
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    env_file: ./etl/config/.env
+    
+  etl:
+    build: etl
+    depends_on:
+      - postgres
+      - elasticsearch
+      
+  # fastapi:
+  #   build: FastAPI
+  #   image: fastapi-image
+  #   depends_on:
+  #     - postgres
+  #     - elasticsearch
+  #     - redis
+    # ports:
+    #   - "8000:8000"
+
+  # nginx:
+  #   image: nginx:latest
+  #   volumes:
+  #     - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+  #     - ./nginx/conf.d:/etc/nginx/conf.d:ro
+  #     - ./nginx/data:/data/
+  #   depends_on:
+  #     - fastapi
+  #   ports:
+  #     - "80:80"
+  #   command: sh -c "cp -r /data /var/www/ && chmod -R 555 /var/www && /docker-entrypoint.sh nginx -g 'daemon off;'"
+
+  # tests:
+  #   image: fastapi-image
+    
+volumes:
+  esdata:
+  pgdata:
+  
