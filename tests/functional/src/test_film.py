@@ -7,9 +7,8 @@ import pytest
 from ..utils.generate_data import get_data_prefix
 
 TESTDATA = os.path.dirname(os.path.realpath(__file__))+'/../testdata/'
+pytestmark = pytest.mark.asyncio
 
-
-@pytest.mark.asyncio
 async def test_search(make_get_request, es_write_data, es_client_sync, delete_testdata, delete_testdata_sync):
     async def get_and_check(endpoint, query_data, expected_answer):
         nonlocal case_id

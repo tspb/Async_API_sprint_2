@@ -15,7 +15,7 @@ def wait_for_es(hosts):
 
 
 def wait_for_up(host, timeout=60, interval=5):
-
+    print("Waiting for",host)
     wait_for_es(host)
 
     start_time = time.time()

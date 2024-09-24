@@ -1,5 +1,6 @@
-**/.env
+**/*.env
 **.pyc
 etl_state.json
 etl.lock
 etl.log
+.pytest_cache/

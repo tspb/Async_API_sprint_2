@@ -4,14 +4,11 @@ from pydantic import Field
 from pydantic_settings import BaseSettings
 from dotenv import load_dotenv
 load_dotenv('dev.env')
-
+import os
+# print(os.getenv('ELASTIC_HOST'))
 
 class TestSettings(BaseSettings):
-    # es_host: str = Field('http://127.0.0.1:9200', env='ELASTIC_HOST')
-    es_host: str = Field('http://elasticsearch:9200', env='ELASTIC_HOST')
-    es_index: str = 'movies'
-    es_id_field: str = 'id'
-    es_index_mapping: dict = {"a": "b"}
+    es_host: str = os.getenv('ELASTIC_HOST','http://elasticsearch:9200')
 
     # redis_host: str = 'http://localhost:6379'
     redis_host: str = Field('http://redis:6379', env='REDIS_HOST')
